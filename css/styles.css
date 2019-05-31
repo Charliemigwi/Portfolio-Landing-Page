@@ -1,0 +1,61 @@
+h1{
+  text-align: center;
+  font-weight: bolder;
+}
+h2.personal{
+  font-weight: bold;
+  text-align: center;
+}
+h2{
+  font-weight: bold;
+  text-align: center;
+}
+img {
+  border-radius: 8px;
+  padding: 5px;
+  width: 150px;
+}
+h3{
+  text-decoration: underline;
+}
+.card{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width:480px){
+  body{
+    background-color: steelblue;
+    background-image: url("/images/cpu.jpg");
+  }
+  .column1{
+    width:400px;
+    float: center;
+    padding: 10px;
+  }
+  .column2{
+    width:200px;
+    padding: 10px;
+    float: none;
+  }
+  .column4{
+    width:300px;
+    float: left;
+    padding: 15px;
+  }
+  .column3{
+    width:300px;
+    float: left;
+    padding: 15px;
+  }
+  .sidebar{
+    float: right;
+    width: 10%;
+  }
+}
